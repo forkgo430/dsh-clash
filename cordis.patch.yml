@@ -1,0 +1,13 @@
+- insert:
+    - id: clash
+      name: dsh-clash
+      config:
+        # mihomo 的 REST API 地址。Clash Verge 在 verge.yaml 里把
+        # enable_external_controller 打开后，就会在 9097 上监听（默认端口）。
+        # 换端口就改这里。
+        apiBase: http://127.0.0.1:9097
+        # mihomo 的 secret。Clash Verge 默认写的是 set-your-secret；
+        # 自己改过就同步到这里，留空表示不带鉴权头。
+        secret: set-your-secret
+        # 单次 HTTP 请求的超时。测延迟、拉连接列表都会用到。
+        timeoutMs: 10000
