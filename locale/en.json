@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Clash proxy control",
+    "description": "Let the AI operate the local Clash (mihomo) kernel: list nodes and policy groups, switch nodes, test latency, change rule/global/direct mode, inspect and temporarily toggle routing rules, read live connections and traffic, and drop connections so a new configuration takes effect immediately. Speaks the REST API; it neither owns the kernel process nor touches the system proxy switch.",
+    "detail": "docs/DETAIL.md"
+  }
+}
