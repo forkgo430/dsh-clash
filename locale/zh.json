@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Clash 代理控制",
+    "description": "让 AI 直接操作本机的 Clash（mihomo）内核：查看节点与策略组、切换节点、测延迟、切换 rule/global/direct 模式、查看与临时改分流规则、查看实时连接与流量、断开连接让新配置立刻生效。走 REST API，不接管进程、不碰系统代理开关。",
+    "detail": "docs/DETAIL.md"
+  }
+}
